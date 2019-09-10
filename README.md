@@ -5,7 +5,7 @@ This script is just an extension to my previous HQBot script. The reason why I c
 
 The main mechanism of the script is same. However, there is one big difference in this one. Instead of using local machine's interpreter, the script takes help of online Jupyter Notebook Binder to execute some part of the code. This saves a lot of time and makes the script more efficient.
 
-The script OCRs the live game broadcast and passes the generate strings to Jupyter Notebook. The rest of the code is executed on that environment. This saves us approximately 7-8 seconds of processing time.
+The script OCRs the live game broadcast and passes the generate strings to Jupyter Notebook. The rest of the code is executed on that environment. This saves us approximately 7-8 seconds of processing time.<br/>
 <h3>How To Use This Script</h3>
 I have provided some steps to inform you how to use this script.
 1. First of all, open this link on your browser.
@@ -16,9 +16,10 @@ I have provided some steps to inform you how to use this script.
 6. Start a new Console to install necessary modules on the notebook.
 7. Enter <code>pip install google requests</code> in the console and press Shift+Enter to execute it.
 8. Open your terminal and shift it to lower right part of the screen. Minimize it as much as possible.
-9. Execute the script on your terminal and BAAM! you would see the answer on Jupyter Notebook in a couple of seconds.
+9. Execute the script on your terminal and BAAM! you would see the answer on Jupyter Notebook in a couple of seconds.<br/>
 
-<strong>Note : THE PREDEFINED COORDINATES WORK FOR ME AND SHOULD WORK FOR YOU AS WELL. HOWEVER IF NOT, FIX THEM ACCORDING TO YOUR SCREEN. </strong>
+<strong>Note : THE PREDEFINED COORDINATES WORK FOR ME AND SHOULD WORK FOR YOU AS WELL. HOWEVER IF NOT, FIX THEM ACCORDING TO YOUR SCREEN. </strong> 
+<br/> This version of the script is compatible for Linux Machines. However, if Windows users want to use it, install Pytesseract as a standalone executable and add an extra line to the top of the code. <code>pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"</code>
 
 For those who do not know about my previous script, here's a little intro to it.
 
