@@ -1,0 +1,6 @@
+pyautogui                                                                                                        
+pillow
+PIL
+pytesseract
+tesseract
+requests 
